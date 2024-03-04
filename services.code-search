@@ -1,0 +1,57 @@
+# Query: services
+# ContextLines: 1
+
+16 results - 2 files
+
+index.html:
+  24                      <div class="logo"> <img class="logo" src="logo/mylogo.jpeg"  width="70px" alt="logo"> </div>
+  25:                     <div> <a href="#">Home</a> <a href="#about">About</a> <a href="#services">Services</a> <a href="#">Blog</a></li>
+  26                          <a href="#">More</a> </div>
+
+  82      </section>
+  83:     <section class="services">
+  84          <div class="container">
+  85:             <h1 class=" services-head">Services</h1>
+  86              <p>All your digital needs... covered.</p>
+
+style.css:
+  112    
+  113:   section.services {
+  114      background: rgb(17, 17, 17);
+  115    }
+  116:   .services-head {
+  117      color: rgb(10, 9, 9);
+
+  122    }
+  123:   .services-head + p {
+  124      color: var(--white);
+
+  134    }
+  135:   section.services .card-grid {
+  136      display: grid;
+
+  139    }
+  140:   section.services .card-grid .card {
+  141      background: var(--white);
+
+  146    }
+  147:   section.services .card-grid .card img {
+  148      position: absolute;
+
+  153    }
+  154:   section.services .card-grid .card h2 {
+  155      font-weight: 600;
+
+  158    }
+  159:   section.services .card-grid .card p {
+  160      font-family: "Lato", sans-serif;
+
+  163    }
+  164:   section.services .card-grid .card:hover {
+  165      background: var(--primary);
+  166    }
+  167:   section.services .card-grid .card:hover h2 {
+  168      color: var(--white);
+  169    }
+  170:   section.services .card-grid .card:hover p {
+  171      color: var(--white);
